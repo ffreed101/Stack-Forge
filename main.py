@@ -1,3 +1,13 @@
+class Item:
+    def __init__(self, itemNum, tags):
+        self.itemNum = itemNum
+        self.tags = []
+
+class Tags:
+    def __init__(self, tagNum, pieceCount):
+        self.tagNum = tagNum
+        self.pieceCount = pieceCount
+
 def displayGreeting():
     print("Welcome to Stack Forge!")
 
