@@ -22,10 +22,7 @@ class Item:
             except ValueError as e:
                 print(f"Invalid input: {e}")
 
-class Tag:
-    def __init__(self, tagNum, pieceCount):
-        self.tagNum = tagNum
-        self.pieceCount = pieceCount
+
 
 def createItem():
     print()
