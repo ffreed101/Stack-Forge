@@ -1,6 +1,4 @@
-from utils.menu import displayMenu
-from utils.validation import getAndValidateInput
-from utils.item_functions import createItem
+from utils import *
 
 def createTags(item):
     pass
